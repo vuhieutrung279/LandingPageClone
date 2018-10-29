@@ -1,0 +1,51 @@
+#drop{
+    padding: 100px 0;
+    .container{
+        padding: 0;
+        .col-md-12{
+            margin-bottom: 100px;
+            p{
+                color:$color-grey;
+            }
+        }
+        .drop__input{
+            .form-control{
+                margin-bottom: 10px;
+                height: 40px;
+                border-radius: 0;
+                &:focus{
+                    border:1px solid $color-black;
+                    box-shadow: none;
+                }
+            }   
+        }
+        .drop__submit{
+            padding: 0;
+            textarea{
+                width: 100%;
+                height: 90px;
+                margin-bottom: 10px;  
+                border-radius: 0; 
+                &:focus{
+                    border:1px solid $color-black;
+                    box-shadow: none;
+                }
+            }
+            a{
+                height: 40px;
+                border-radius: 0;
+                background-color: $color-black;
+                color:$color-white;
+                line-height: 30px;
+                border:none;
+                text-align: center;
+                &:hover{
+                    text-decoration: none;
+                    color:$color-white;
+                    background-color: $color-yellow;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}

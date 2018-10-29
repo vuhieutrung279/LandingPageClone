@@ -1,0 +1,35 @@
+#factor{
+    background:url('../img/7.jpg');
+    margin-top: $pd-4;
+    overflow: hidden;
+    width: 100% !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    color:$color-white;
+    .factor__item{
+        margin: 100px 0;
+        i{
+            padding: 30px 50px;
+            font-size: 50px;
+            float:left;
+        }
+        .factor__detail{
+            float: left;
+            position: relative;
+            &:before{
+                position: absolute;
+                top: 10px;
+                left: -25px;
+                width: 1px;
+                height: 80px;
+                content: "";
+                background: rgba(255, 255, 255, 0.4);
+                transform: rotate(30deg);
+            }
+        }
+
+    }
+}

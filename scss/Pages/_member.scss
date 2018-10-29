@@ -1,0 +1,32 @@
+#member{
+    background:url('../img/19.jpg');
+    margin-top: $pd-4;
+    overflow: hidden;
+    width: 100% !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    color:$color-white;
+    .carousel-inner{
+        .carou__content{
+            padding: 10%;
+            p{
+                font-style: italic;
+                line-height: 30px;
+                padding: 10px 0;
+            }
+            img{
+                border-radius: 50%;
+                width: 100px;
+            }
+        }
+    }
+    .carousel-indicators{
+        top:85%;
+        li{
+            margin:0 7px;
+        }
+    }
+}

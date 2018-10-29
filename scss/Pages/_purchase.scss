@@ -1,0 +1,28 @@
+#purchase{
+    color:$color-white;
+    background-color: $color-black;
+    padding: 50px 0;
+    .purchase__content{
+        h3{
+            font-size: 25px;
+            span{
+                color:#d6b161 !important;
+            }
+        }
+    }
+    .purchase__button{
+        color: #fff;
+        padding-top: 20px;
+        a{
+            padding: 15px 30px;
+            border-radius: 4px;
+            text-decoration: none;
+            background-color:$color-grey;
+            color:$color-white;
+            &:hover{
+                background-color: $color-yellow;
+            }
+        }
+
+    }
+}

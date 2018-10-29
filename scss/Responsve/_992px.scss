@@ -1,0 +1,30 @@
+@media screen and (max-width: 992px) {
+   #purchase{
+    .purchase__button{
+      a{
+        padding: 15px 20px;
+      }
+    }
+   }
+   #blog{
+    .container{
+      .blog__content{
+        padding: 0;
+      }
+    } 
+   }
+   #news{
+      h4,h3,p{ 
+          font-size: 80%;
+      }
+    }
+    #subcribe{
+      .container{
+          .col-md-12{
+              .subcribe__form{
+                width: 100%;
+              }
+            }
+          }
+        }
+  }

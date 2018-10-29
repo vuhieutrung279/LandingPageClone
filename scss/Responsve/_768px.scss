@@ -1,0 +1,54 @@
+@media screen and (max-width: 768px) {
+    #carou{
+        .carousel__content{
+            .carousel__info{
+                position: absolute;
+                top:20%;
+                h1{
+                    font-size: 90%;
+                }
+                p{
+                    font-size: 90%;
+                }
+            }
+        }
+    }
+    #design{
+        .design__item{
+            margin-bottom: 50px;
+        }
+    }
+    #skill{
+        .skill__content{
+        .overlay{
+            display:none;
+        }
+        }
+    }
+   #factor{
+       .factor__item{
+           margin:30px 0;
+       }
+   }
+   #news{
+        h4,h3,p{
+            font-size: 90%;
+        }
+    }
+    #subcribe{
+        .container{
+            .col-md-12{
+                .subcribe__form{
+                    input{
+                        width: 50%;
+                    }
+                }
+            }
+        }
+    }
+    #contact{
+        .contact__detail{
+            padding: 30px 0;
+        }
+    }
+  }

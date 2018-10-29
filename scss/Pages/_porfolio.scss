@@ -1,0 +1,93 @@
+#portfolio{
+    padding: 100px 0 0 0;
+    .container-fluid{
+
+        .por-detail{
+            margin-bottom: 100px;
+        }
+        .col-md-12{
+            p{
+                color:$color-grey;
+            }
+            ul{
+                list-style: none;
+                li{
+                    display: inline;
+                    margin:0 20px;
+                    
+                    a{
+                        text-decoration: none;
+                        color:#a9a8a8;
+                        &:hover{
+                            color:$color-black;
+                        }
+                    }
+                    .active{
+                        color:$color-black;
+                    }
+                }
+            }
+        }
+        .col-md-6,.col-lg-3{
+            padding: 10px !important;
+            margin-bottom: 10px;
+            .portfolio__item{
+                position: relative;
+                img{
+                    width: 100%;
+                }
+                .portfolio__hover{
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    bottom: 0;
+                    left: 0;
+                    margin: 0;
+                    opacity: 0;
+                    transition: all 0.5s;
+                    border: 20px solid rgba(0, 0, 0, .1);
+                    background-color: rgba(255, 255, 255, .9);
+                    .portfolio__icon{
+                        position: absolute;
+                        left: 45%;
+                        top:0;
+                        a{
+                            i{
+                                color:$color-black;
+                                font-size: 40px;
+                            }
+                        }
+                    }
+                    .portfolio__des{
+                        position: absolute;
+                        left:0%;
+                        bottom: 0;
+                        text-transform: uppercase;
+                        text-align: center;
+                        h4{
+                            margin-bottom: 5px;
+                            letter-spacing: 4px;
+                            font-size: 14px;
+                        }
+                        p{
+                            margin-bottom: 0;
+                            letter-spacing: 3px;
+                            color: #757575;
+                            font-size: 12px;
+                            font-weight: normal;
+                        }
+                    }
+                    &:hover{
+                        opacity: 1;
+                        .portfolio__icon{
+                            top:30%;
+                        }
+                        .portfolio__des{
+                            bottom: 20%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,51 @@
+#get-price{
+    background:url('../img/14.jpg');
+    margin-top: $pd-4;
+    overflow: hidden;
+    width: 100% !important;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    .carousel-inner{
+        .carou__content{
+            padding: 10%;
+            h5{
+                color:$color-yellow;
+                letter-spacing: 2px;
+                font-size:15px;
+                padding: 20px 0;
+            }
+            p{
+                color:$color-white;
+                font-style: italic;
+                line-height: 30px;
+                padding: 10px 0;
+            }
+            a{
+                background-color: $color-black;
+                color:white;
+                padding: 10px 20px;
+                font-size: 13px;
+                border-radius: 4px;
+                &:hover{
+                    text-decoration: none;
+                    background-color:$color-yellow;
+                }
+            }
+        }
+    }
+    position: relative;
+    .carousel-indicators{
+        position: absolute;
+        top:85%;
+        
+        li:first-child{
+            margin-left: 550px;
+        }
+        li{
+            margin:0 7px;
+        }
+    }
+}

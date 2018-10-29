@@ -1,0 +1,14 @@
+#client{
+    padding-top: 100px;
+    .container{
+        .col-md-12{
+            margin-bottom: 100px;
+            p{
+                color:$color-grey;
+            }
+            .owl-nav{
+                display: none;
+            }
+        }
+    }
+}

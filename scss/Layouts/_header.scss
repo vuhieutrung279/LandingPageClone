@@ -1,0 +1,51 @@
+#header{
+    .active{
+        color:$color-yellow;
+    }
+    nav{
+        background: rgba(255, 255, 255, 0) !important;
+        position: fixed;
+        transition: height .3s, line-height .3s, margin .3s;
+        padding-top: 0;
+        .navbar-brand{
+            img{
+                padding-bottom: 20px;
+                margin-top: -30px;
+            }
+        }
+    }
+    .nav-color{
+        background: rgba(255, 255, 255, 1) !important;
+        a{
+            img{
+               width: 50%; 
+               margin-top:-15px;
+               transition: height .3s, line-height .3s, margin .3s;
+            }
+        }
+        .collapse{
+            ul{
+                padding-top: 10px;
+            }
+        }
+    }
+    a{
+        img{
+           width: 100%; 
+        }
+    }
+    .collapse{
+        ul{
+            padding-top: 30px;
+            li{
+               
+                a{
+                    padding: 10px 10px;
+                    &:hover{
+                        color:$color-yellow;
+                    }
+                }
+            }
+        }
+    }
+}

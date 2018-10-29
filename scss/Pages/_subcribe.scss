@@ -1,0 +1,42 @@
+#subcribe{
+    background-color: #F8F8F8;
+    padding-top: 100px;
+    .container{
+        .col-md-12{
+            text-align: center;
+            margin-bottom: 100px;
+            h3{
+                letter-spacing: 2px;
+                color:$color-yellow;
+            }
+            p{
+                color:$color-grey;
+            }
+            .subcribe__form{
+                width: 85%;
+                margin-top: 50px;
+                margin-left: auto;
+                input{
+                    width: 70%;
+                    padding-top: 23px;
+                    padding-bottom: 23px;
+                    border: none; 
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+                a{
+                    margin:20px;
+                    border-radius: 4px;
+                    padding: 13px 40px;
+                    color:$color-white;
+                    background-color: $color-black;
+                    &:hover{
+                        text-decoration: none;
+                        background-color: $color-yellow;
+                    }
+                }
+            }
+        }
+    }
+}
