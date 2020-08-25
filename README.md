@@ -1,4 +1,4 @@
-# ThemeSCSS
+# Clone Landing Page
 Using HTML5 and CSS3 (SASS)
-Buld SASS with gulp
+Build SCSS with gulp
 Based design theme on themebucket
